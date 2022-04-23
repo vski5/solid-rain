@@ -5,7 +5,7 @@ Iterative testing of downloaded software
 
 # solid-rainV0.1
 
-使用`http.Get()`和`ioutil.WriteFile()`。
+使用`http.Get()` 和 `ioutil.WriteFile()`。
 `http.Get()`下载文件到内存，
 `ioutil.WriteFile()`将内存里的下载内容直接写到文件中。
 很占用内存空间，也没有流式传输的一点点思维。
